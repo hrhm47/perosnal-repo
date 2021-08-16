@@ -1,0 +1,15 @@
+/*create a class*/
+.vhvw {
+    margin: 15px;
+    height: 100vh;
+    width: 100vw;
+    background-color: cadetblue;
+   
+
+}
+
+.image_class {
+    width: 100%;
+    height: 100%;
+    border: 6px solid black;
+}

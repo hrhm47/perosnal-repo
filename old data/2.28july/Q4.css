@@ -1,0 +1,31 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: wheat;
+}
+.gen_div{
+    margin-left: 420px;
+    background-color: brown;
+    border: 13px solid darkblue;
+    width: fit-content;
+}
+.em_cl{
+    background-color: burlywood;
+    border: 12px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    width: fit-content;
+}
+.emtag {
+    font-size: 2em;
+}
+.rem_cl{
+    border: 13px solid yellow;
+    background-color: cadetblue;
+    font-size: 8px;
+    width: fit-content;
+}
+.remtag {
+   font-size: 4rem; 
+}

@@ -1,0 +1,555 @@
+body{
+    background-color: lightskyblue;
+    color: indigo;
+}
+header{
+    position: absolute;
+    background: tomato;
+    width: 98%;
+    height: 8vh;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid white;
+    /* border-bottom: 3px solid black; */
+    /* box-shadow: 14px 6px 8px rgba(236, 238, 243, 0.24); */
+    display: flex;
+}
+
+.main-btn {
+    font-family: 'Righteous', cursive;
+}
+ ul {
+    display:flex;
+    list-style: none;
+    margin-left: 24vw;
+    /* padding-top: px; */
+}
+ul li {
+    padding-right: 39px;
+    word-spacing: 5px;
+}
+ul li a.home{
+    color: white;
+}
+ul li a.home:hover{
+    color: indigo;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: indigo;
+}
+ul li a:hover{
+    color: white;
+}
+
+.heading{
+    position: absolute;
+    top:6rem;
+    left: 60px;
+    font-size: large;
+}
+.heading img{
+    position: absolute;
+    top:11rem;
+    border-top:3px solid white ;
+    padding-top: 30px;
+    border-radius: 100%;
+}
+.heading .after-img{
+    position: absolute;
+    top:25rem;
+    left:72px;
+}
+.tinyPicture {
+    height: 60px;
+    border-radius: 10px;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 35rem;
+    position: absolute;
+    margin-left: 4rem;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.card:hover {
+    border-color: #1E90FF;
+}
+.card2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 35rem;
+    margin-left: 18rem;
+    position: absolute;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.card2:hover {
+    border-color: #1E90FF;
+}
+.card3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 50rem;
+    margin-left: 4rem;
+    position: absolute;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.card3:hover {
+    border-color: #1E90FF;
+}
+.card4 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 50rem;
+    margin-left: 18rem;
+    position: absolute;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.card4:hover {
+    border-color: #1E90FF;
+}
+.card5 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 65rem;
+    margin-left: 11rem;
+    position: absolute;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.card5:hover {
+    border-color: #1E90FF;
+}
+.relpos{
+    position: relative;
+}
+.abpos{
+    position: absolute;
+}
+.images{
+    width: 800px;
+    height: 400px;
+}
+#img1{
+    width:230px;
+    border:3px solid white;
+    height: 20%;
+    left: 8rem;
+    margin-top: 86rem;
+}
+#img2{
+    width:230px;
+    border:3px solid white;
+    height: 20%;
+    left: 22rem;
+    margin-top: 83rem;
+}
+#img3{
+    width:230px;
+    border:3px solid white;
+    height: 20%;
+    left: 30rem;
+    margin-top: 75rem;
+}
+#img4{
+    width:230px;
+    border:3px solid white;
+    height: 20%;
+    left: 36rem;
+    margin-top: 86rem;
+    z-index: -1;
+}
+#img5{
+    width:260px;
+    border:3px solid white;
+    height: 20%;
+    left: 21rem;
+    margin-top: 93rem;
+}
+
+/* Protected Birds page css */
+.main-div{
+    position: absolute;
+    top:9rem;
+    left: 3rem;
+    flex-wrap: wrap;
+    font-size: larger;
+}
+.main-div h1{
+    color: whitesmoke;
+}
+.asidE{
+    position: absolute;
+    right: 5rem;
+    width: 10vw;
+    top:8rem;
+    border: 3px solid white;
+    background-color: turquoise;
+}
+.asidE h3{
+    text-align: center;
+}
+.asidE p{
+    font-size: larger;
+    padding-left: 9px;
+}
+.lnks{
+    position: absolute;
+    right: 5rem;
+    width: 10vw;
+    top:29rem;
+    border: 3px solid white;
+    background-color: turquoise;
+}
+.lnks h3{
+    text-align: center;
+}
+.lnks p{
+    font-size: larger;
+}
+.lnks .amber{
+    background-color: tomato;
+}
+.lnks .red{
+    color: red;
+}
+.lnks a{
+    color: darkblue;
+}
+
+.barn-owl{
+    background: #71ade9;
+    width: 70vw;
+    height: 46vh;
+    position: relative;
+    top:22rem;
+    left: 3rem;
+    border-top: 3px solid white;
+}
+.barn-owl h2{
+    padding-top: 2rem;
+    /* padding-left: 6rem; */
+    text-align: center;
+}
+.barn-owl p{
+    /* padding-top: 2rem; */
+    padding-left: 2rem;
+    font-size: larger;
+}
+
+.barn-owl img{
+    width: 20vw;
+    height: 23vh;
+    margin-left: 20rem;
+}
+.curlew{
+    background: #71ade9;
+    width: 70vw;
+    height: 68vh;
+    position: relative;
+    top:25rem;
+    left: 3rem;
+    border-top: 3px solid white;
+}
+.curlew h2{
+    padding-top: 2rem;
+    /* padding-left: 6rem; */
+    text-align: center;
+}
+.curlew p{
+    font-size: larger;
+    padding-left: 8rem;
+}
+
+.curlew img{
+    width: 20vw;
+    height: 20vh;
+    margin-left: 20rem;
+}
+.yellowhammer{
+    background: #71ade9;
+    width: 70vw;
+    height: 49vh;
+    position: relative;
+    top:28rem;
+    left: 3rem;
+    border-top: 3px solid white;
+}
+.yellowhammer h2{
+    padding-top: 2rem;
+    text-align: center;
+}
+.yellowhammer p{
+    font-size: larger;
+    padding-left: 2rem;
+}
+
+.yellowhammer img{
+    width: 20vw;
+    height: 25vh;
+    margin-left: 20rem;
+}
+.lapwing{
+    background: #71ade9;
+    width: 70vw;
+    height: 48vh;
+    position: relative;
+    top:31rem;
+    left: 3rem;
+    border-top: 3px solid white;
+}
+.lapwing h2{
+    padding-top: 2rem;
+    text-align: center;
+}
+.lapwing p{
+    font-size: larger;
+    padding-left: 8rem;
+}
+
+.lapwing img{
+    width: 20vw;
+    height: 21vh;
+    margin-left: 20rem;
+}
+.others{
+    background: #71ade9;
+    width: 70vw;
+    height: 38vh;
+    position: relative;
+    top:34rem;
+    left: 3rem;
+    border-top: 3px solid white;
+    
+}
+.others h2{
+    padding-top: 2rem;
+    text-align: center;
+}
+.others p{
+    font-size: x-large;
+    padding-left: 8rem;
+}
+
+.others li{
+    font-size: large;
+    margin-left: 10rem;
+}
+.end{
+    position: relative;
+    width: 40vw;
+    height: 2vh;
+    top: 35rem;
+} 
+
+/* Conservation Page */
+
+.con-hed{
+    position: absolute;
+    top:10rem;
+    left:5rem;
+    font-size: larger;
+}
+.con-hed h1{
+    color: white;
+}
+
+.con-fdiv{
+    position: relative;
+    width: 50vw;
+    top: 19rem;
+    height: 35vh;
+    background: turquoise;
+    left:5rem;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.con-fdiv h1{
+    padding:10px;
+    text-align: center;
+}
+.con-fdiv p{
+    padding-left: 10px;
+    font-size: larger;
+}
+.con-sdiv{
+    position: relative;
+    width: 50vw;
+    top: 21rem;
+    height: 35vh;
+    background: turquoise;
+    left:5rem;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.con-sdiv h1{
+    padding:10px;
+    text-align: center;
+}
+.con-sdiv p{
+    padding-left: 10px;
+    font-size: larger;
+}
+.con-tdiv{
+    position: relative;
+    width: 50vw;
+    top: 23rem;
+    height: 35vh;
+    background: turquoise;
+    left:5rem;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.con-tdiv h1{
+    padding:10px;
+    text-align: center;
+}
+.con-tdiv p{
+    padding-left: 10px;
+    font-size: larger;
+}
+.end-con{
+    position: relative;
+    width: 40vw;
+    height: 2vh;
+    top: 25rem;
+} 
+
+/* santuraires page */
+.last-heading{
+    color: rgb(14, 99, 99);
+    position: relative;
+    top:8rem;
+    text-align: center;
+    font-size: xx-large;
+    box-shadow: 12px 12px 9px rgba(0, 12, 12, .84);
+}
+.san-div{ 
+    position:relative; 
+    top:15rem;
+    font-size:large;
+    left: 8rem;
+    width: 50vw;
+    height: auto;
+    box-shadow: 12px 7px 12px rgba(0, 12, 12, .84);
+    background: turquoise;
+    /* border: 3px solid white; */
+}
+table,th,td{
+    border: 1px solid blue;
+    padding: 5px;
+    border-collapse:collapse ;
+}
+th{
+    border-bottom: 1px solid yellow;
+}
+td{
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+/* contact page */
+.contact-div{
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    background-color: rgb(164, 193, 218);
+    top:13rem;
+    left: 24rem;
+    border: 6px solid rgb(99, 175, 13);
+    box-shadow: 13px 23px 12px rgba(0, 12, 12, .84);
+}
+.contact-div h1{
+    text-align: center;
+}
+.contact-div label{
+    font-size: x-large;
+    padding: 14px;
+    font-family: cursive;
+}
+.contact-div input{
+    margin-left: 2.8rem;
+    border-radius: 10px;
+    height: 20px;
+}
+.contact-div textarea{
+    margin-top: -2rem;
+    margin-left: 8.5rem;
+    width: 10.5rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.contact-div button{
+    width: auto;
+    font-size: larger;
+    margin-left: 11rem;
+    margin-top:2rem;
+    font-weight: bolder;
+    background: transparent;
+    color: whitesmoke;
+}
+.contact-div button:hover{
+    color: black;
+}
+.iner-div{
+    width: 30vw;
+    height: 30vh;
+    position: relative;
+    background-color: rgb(170, 206, 206);
+    top:-9rem;
+    left: 25rem;
+    border: 4px solid rgb(0, 19, 128);
+    border-bottom-right-radius: 10%;
+    box-shadow: 13px 23px 12px rgba(0, 12, 12, .84);
+}
+.iner-div1{
+    width: 30vw;
+    height: 30vh;
+    position: relative;
+    background-color: rgb(154, 189, 189);
+    top:1rem;
+    left: 2rem;
+    border: 3px double rgb(26, 12, 46);
+    border-bottom-right-radius: 10%;
+    box-shadow: 13px 23px 12px rgba(0, 12, 12, .84);
+    font-size: xx-large;
+    font-weight: 900;
+    /* padding-top:20px; */
+    /* padding-left: 10px; */
+    color: white;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: violet;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
+  .iner-div1 {
+    width: 30vw;
+    height: 30vh;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 3s;
+  }

@@ -1,0 +1,21 @@
+body {
+    background-color: salmon;
+    font-size: 16px;
+}
+
+.container {
+    font-size: 16px ;
+    border: 5px dotted slategrey
+}
+
+.em {
+    font-size: 2em;
+    border: 6px solid red
+  
+}
+
+.rem {
+    font-size: 1rem;
+    text-decoration: underline;
+    color: royalblue;
+}

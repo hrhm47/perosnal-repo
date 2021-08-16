@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Code+Pro:wght@300&family=WindSong:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+header{
+    position: absolute;
+    background: rgb(32, 37, 65);
+    width: 100%;
+    height: 10vh;
+    border-bottom: 3px solid black;
+    box-shadow: 14px 6px 8px rgba(236, 238, 243, 0.24);
+    display: flex;
+}
+header:hover{
+    /* background: burlywood; */
+    background: #0d7279
+}
+.logo h2{
+    font-size: 2rem;
+    font-family: 'WindSong', cursive;
+    font-weight: 900;
+    padding-left: 50px;
+    padding-top: 15px;
+    color: #dbcaca;
+    transition: .3s linear;
+    transition-property: transform;
+
+}
+.logo h2 span{
+    color:#c71812 ;
+}
+.logo h2 span:hover{
+    color: black;
+    transform: scale(3.5);
+}
+
+.main-btn {
+    font-family: 'Righteous', cursive;
+}
+ ul {
+    display:flex;
+    list-style: none;
+    margin-left: 43vw;
+    padding-top: 27px;
+}
+ul li {
+    padding-right: 25px;
+    word-spacing: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #371e1e;
+}
+ul li a:hover{
+    color: #c71812;
+}
+
+/* home section */
+body{
+    background: cadetblue;
+}
+.home-div{
+    top: 80px;
+    width: 70%;
+    height: 90vh;
+    position: absolute;
+    display: flex;
+   
+    /* padding-top: 40vh; */
+}
+.home-div img{
+    width: 98.8vw;
+    height: 90vh;
+    background-size: cover; 
+}
+.home-div img:hover{
+    opacity: .8 ;
+}
+.home-text h2 {
+    position: absolute;
+    top: 13rem;
+    left: 17rem;
+    font-family: cursive; 
+  color: white;
+  padding-left: 20px;
+}
+
+.home-text h2 span{
+    color: yellow;
+}
+
+.home-text p {
+    position: absolute;
+    top: 18rem;
+    left: 13rem;
+  font-size: larger;
+  font-family: cursive;
+  color: white;
+  padding-left: 23px;
+}
+.home-text p span:hover{
+    color: yellow;
+}
+.home-text button{
+    position: absolute;
+    top: 25rem;
+    left: 19rem; 
+    width: 6rem;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: bold;
+  background: transparent;
+}
+.home-text button:hover{
+    color: skyblue;
+}
+.image img{
+    position: absolute;
+    width: 20vw;
+    height: 40vh;
+    left: 90%;
+    top:9rem;
+    border-radius: 100%;   
+}
+
+
+/* about section */
+
+.about-div{
+    left: 300px;
+    width: 60%;
+    height: 50%;
+    top: 55rem;
+    background:#52556e ;
+    position: absolute;
+    border-bottom: 4px solid black;
+    border-top: 3px solid #520e4c;
+    border-radius: 79px;
+    display: flex;
+}
+.about-div h1{
+    font-weight: bolder;
+    letter-spacing: 8px;
+    padding-top:23px;
+    padding-left: 9rem;
+    color: rgba(241, 169, 241, 0.986);
+    margin-top: 0;
+}
+.about-img img{
+    width: 19vw;
+    height: 35vh;
+    top: 4rem;
+    position: relative;
+    left: 4rem;
+    border-radius: 70px;
+}
+.about-text{
+    margin-top:6rem;
+    font-family: 'Righteous', cursive;
+    margin-left: -60px;
+    letter-spacing: 2px;
+}  
+.about-text h2{
+    letter-spacing: 2px;
+    line-height: 5rem;
+}
+.about-text p{
+    line-height: 2rem;
+    color: #ffffff;
+}
+.about-text a{
+    color: black;
+}
+.about-text a:hover{
+    color: #ffffff;
+    background: transparent;    
+}
+
+/* Skills section */
+
+.skills-div{
+    left: 90px;
+    width: 90%;
+    height: 50%;
+    top: 90rem;
+    /* bottom: 0; */
+    /* background:#331961fb ; */
+    background: transparent;
+    position: absolute;
+    border: 7px solid #420e3e;
+    /* border-radius: 79px; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    justify-content: center;
+}
+.myskills {
+    margin-top: 4px;
+    position:absolute;
+    height: 33px;
+    width: 45px;
+   
+}
+.myskills h1{
+    margin-top: 5px;
+    font-size: 34px;
+    font-family: Courier;
+    font-weight: bolder;
+}
+.general{
+    margin-top: 3.5rem;
+    margin-right: 6px;
+    width: 20vw;
+    height: 18rem;
+    border: 3px solid purple;
+    justify-content: center;
+    padding-left: 1px;
+    color: whitesmoke;
+    background:#0d7279;
+    font-family: 'Courier New', Courier, monospace;
+}
+.general img{
+    padding-left: 8rem;
+}
+.general h2{
+    text-align: center;
+    line-height: 4rem;
+}
+.general p{
+    text-align: center;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+
+/* Contact Section */
+.contact-div{
+    top: 120rem;
+    left: 15rem;
+    background-color: rgb(128, 4, 133);
+    width: 70vw;
+    height: 70vh;
+    position:absolute;
+    box-shadow: 23px 13px 12px rgba(12, 21, 148, 0.26);
+    border-radius: 10px;
+    border-bottom-right-radius: 40%;
+}
+.innercontact{
+    top: 3rem;
+    left: 3rem;
+    background-color: rgb(19, 26, 65);
+    width: 60vw;
+    height: 40vh;
+    position:absolute;
+    border-radius: 10px;
+    border-bottom-right-radius: 50%;
+    /* border-radius: 100%; */
+}
+.heading{
+    position: relative;
+    top:2rem;
+    /* left: 23px; */
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    color: skyblue;
+}
+.heading span:hover{
+    color: #ffffff;
+    background: transparent;
+}
+.personal-contact {
+    color:skyblue ;
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    line-height: 1.9rem;
+    font-size: 20px;
+}
+
+.social-icon{
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+    
+}
+ul li a{
+    color: skyblue;
+    transition: .1s ease-in;
+}
+ul li a:hover{
+    color: #000;
+    transform: scale(1.5);
+}
+
+.cheading{
+    position: relative;
+    top: 24rem;
+    /* left: 3.3rem; */
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project{
+    position: absolute;
+    top: 26rem;
+    left: 3.4rem;
+    padding-right:9px ;
+    font-size: 19px;
+    font-family: Times, serif;
+    text-align: justify;
+    color:cyan;
+    border-right: 3px solid rgb(167, 167, 177);
+}
+.name{
+    position: absolute;
+    top:26.4rem;
+    left: 22rem;
+}
+.name label{
+    font-size: 19px;
+    color: rgb(133, 226, 238);
+}
+.name input{
+    width: 10vw;
+    background: transparent;
+    color: skyblue;
+    margin-left:12px;
+    /* border: 2px solid; */
+}
+.email{
+    position: absolute;
+    top:29rem;
+    left: 22rem;
+}
+.email label{
+    font-size: 19px;
+    color: rgb(133, 226, 238);
+}
+.email input{
+    width: 10vw;
+    background: transparent;
+    color: skyblue;
+    margin-left:12px;
+    /* border: 2px solid; */
+}
+.message{
+    position: absolute;
+    /* top:26.4rem; */
+    left: 39rem;
+}
+.message label{
+    position: relative;
+    top:23.4rem;
+    font-size: 19px;
+    color: rgb(133, 226, 238);
+}
+.message input{
+    position: relative;
+    top:24.4rem;
+    width: 10vw;
+    height: 9vh;
+    background: transparent;
+    color: skyblue;
+    margin-left:12px;
+    /* border: 2px solid; */
+}
+.btn{
+    position: absolute;
+    top: 27.4rem;
+    left: 58rem;
+    width: 2rem;
+    /* border-radius: 100%; */
+}
+.btn button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+    background-color:transparent;
+    color: skyblue;
+    border: 3px solid transparent;
+    border-bottom-right-radius: 50%;
+}
+.btn button:hover{
+    background-color: rgb(19, 26, 65);
+}
+
+/* footer section */
+
+footer{
+    position: relative;
+    background-color: rgb(102, 21, 78);
+    top: 160rem;
+    height: 10vh;
+    width: 98.9vw;
+   overflow-x: hidden;
+    color: skyblue;
+    font-weight: bold;
+    font-family:   cursive;
+}
+.continer{
+    width:90%;
+
+}
+footer h2{
+    position: relative;
+    left: 13rem;
+    top:1.3rem;
+
+}
+footer p{
+    position: relative;
+    left: 39rem;
+    bottom:8px;
+}
+.lastclass p{
+    position: relative;
+    left: 63rem;
+    bottom: 27px;
+    /* top:1rem; */
+}

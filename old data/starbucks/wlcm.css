@@ -1,0 +1,52 @@
+body{
+    margin: 12px;
+  
+    background-image: url("BackgroundColors.png");
+    background-size: contain;
+    
+    overflow-x: hidden;
+}
+h1{
+    color: brown; text-align: center;margin-top: 110px;font-size: 56px;  
+}
+h4{
+    margin-left: 700px;
+    font-size: 38px;
+    line-height: 0px;
+}
+.title a{
+margin-left: 723px;
+font-size: 20px;
+color: turquoise;
+font-family: monospace;
+text-decoration: none;
+border-radius: 12px ;
+border: 5px solid olive;
+padding: 5px;
+}
+
+.btn{
+    margin-left: 1190px;
+       
+}
+
+h2{
+    margin-left: 72px;
+    margin-top: 40px;
+    color: wheat;
+}
+
+.btn .login, .service, .home ,.about{
+    
+    background-color: transparent;
+    border-radius: 10px ;
+    border: none;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    color: rgb(137, 141, 130);
+}
+footer{
+    margin-left: 1450px;
+    margin-top: 390px;
+    color: teal;
+}

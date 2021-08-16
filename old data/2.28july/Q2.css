@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.image_div{
+    height: 80vh;
+    width: 80vw;
+    background-color: black;
+    border: 6px solid red;
+}
+.fav_image {
+    height: 100%;
+    width: 100%;
+}

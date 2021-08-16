@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background: yellowgreen;
+    
+}
+header{
+    background-color: blueviolet;
+    height: auto;
+    border-top: 5px solid wheat;
+    border-bottom: 7px solid chocolate;
+    position: unset;
+}
+.logo{
+    margin: 12px;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+}
+.logo h1 span{
+        color: black;
+        font-family: cursive;
+}
+.logo h2{
+    margin-top: 11px;
+    color: white;
+}
+ul{
+    
+    display: flex;
+    list-style: none;
+    outline: none;
+}
+ul li {
+    margin:11px;
+    padding: 3px;
+    font-size: medium;
+}
+ul li a{
+    color: white;
+    font-weight: bold;
+    transition: .3s linear;
+}
+ul li a:hover{
+    background: dodgerblue;
+    color: black;
+    transform-origin: scale(1.1);
+}
+/* Home Section */
+.home-div{
+    position: relative;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.home-text{
+    position: absolute;
+    margin: 6rem;
+    top:4rem;
+}
+.home-text h2{
+    color: gold;
+    font-size: 4rem;
+}
+.home-text p{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.home-text p span{
+    color: aliceblue;   
+}
+.home-text p span:hover{
+    color: chartreuse;
+}
+
+/* Services */
+
+.my-services{
+    background: gray;
+    position: relative;
+    
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    margin:4rem 14rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.column{
+    margin: 0 15px 20px;
+    border: 3px solid yellow;
+    box-shadow: 0 1px 3px rgba(26, 21, 5, 0.897)
+    0 1px 2px rgba(32, 189, 53, 0.24);
+    border-radius: 10px;
+    flex-basis: 33%; 
+}
+ .web{
+   padding: 15px 25px;
+}
+img{
+    padding-top: 15px;
+}
+
+/* Career  */
+
+.career-div{
+    background: rgb(160, 38, 160);
+    width: 80vw;
+    height: 30vh;
+    position: absolute;
+    left: 12%;
+    border: 5px solid burlywood;
+    color: whitesmoke;
+    padding-top: 12px;
+    padding-left: 12px;
+    display: flex;
+}
+
+.career-text p{
+    margin-top: 10px;
+    font-size: large;
+}
+.career-div img{
+    max-width: 30%;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 7px cornflowerblue;
+}
+.career-text{
+    left: 5px;
+}
+ .career-text h2{
+     color: #000;
+ }
+
+ .career-text li {
+     list-style: none;
+     display: inline;
+     justify-content: center;
+ }
+li i{
+    margin-top: 20%;
+    letter-spacing: 15px;
+    padding-left: 15px;
+    margin-left: 19px;
+
+}
+ .career-text li i:hover{
+     transform: scale(2);
+ }
+
+
+
+/* Contact Section */
+.main{
+    font-family: cursive;
+    /* /transform: translate(50%,80%); */
+    margin-top: 35%;
+    background: rgb(214, 167, 39);
+    width: 50%;
+    margin-left: 35vh;
+    /* margin: 3rem; */
+    padding: 7px;
+    line-height: 14px;
+    border: 4px solid teal;
+    justify-content: space-between;
+    align-content: space-around ;
+    height: 400px;
+    align-content: center;
+
+}
+
+.main h1{
+    margin-top: 10px;
+    padding-left: 20%;
+    line-height: 15px;
+    
+}   
+.name label{
+    margin-top: 1.7rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+.main .name input{
+    margin-left: 2rem;
+    padding-left: 10px;
+    box-shadow: border-box;
+    border-radius: 12px;
+}
+.age label{
+    margin-top: 1.7rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+.main .age input{
+    margin-left: 2rem;
+    padding-left: 10px;
+    box-shadow: border-box;
+    border-radius: 12px;
+}
+.email label{
+    margin-top: 1.7rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+.main .email input{
+    margin-left: 2rem;
+    padding-left: 10px;
+    box-shadow: border-box;
+    border-radius: 12px;
+}
+.address label{
+    margin-top: 1.7rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+.main .address input{
+    margin-left: 2rem;
+    padding-left: 10px;
+    box-shadow: border-box;
+    border-radius: 12px;
+}
+.main label{
+    margin-bottom: 10rem;
+    /* margin-left: 2rem; */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+input{
+    justify-content: space-between;
+    margin:10px 10px;
+    width: 90%;
+    height: 25px;   
+}
+.main button{
+    background: steelblue;
+    color: white;
+    padding: 5px;
+    margin-left: 15rem;
+}
+.main button:hover{
+    background-color: transparent;
+    color: black;
+}
