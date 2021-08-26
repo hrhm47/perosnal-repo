@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:white ;
+    overflow: hidden;
+}
+.parent{
+    
+    width: 99%;
+    height: 96%;
+    background-color:#DFE2EA;
+    position: absolute;
+    right: 1rem;
+    left: .5rem;
+    top: 1rem;
+    border-radius: 8px;
+}
+.parent-1{
+    /* position: absolute; */
+    display: grid;
+    width: 90vw;
+    height: 89vh;
+    background-color:#fdfafa;
+    margin:2rem 1rem 1rem 4.5rem;
+    border-radius: 40px;
+    grid-template-columns: repeat(3,2fr);
+    grid-template:
+    "nav child-two child-three"
+    "nav child-two child-three"
+    "nav child-two child-three"
+    ;
+}
+.navigation{
+    grid-area: nav;
+    width:120px;
+    height: 89vh;
+    background-color:#F2F3F7 ;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.navigation h1{
+    position: relative;
+    top:4rem;
+    left:1.6rem;
+}
+.navigation h1 span{
+    color: coral;
+    font-weight: 1200;
+    font-size: 2rem;
+    padding: 14px;
+    border: 2px solid #F2F3F7;
+    box-shadow: 2px 2px 12px rgba(70, 116, 116, 0.9);
+    border-radius: 10px;
+}
+.navigation ul{
+    position: relative;
+    top:7.5rem;
+    left:3rem;
+    line-height: 7rem;
+}
+.navigation ul li a i{
+    color: #b2b9d3;
+    font-size: 1.2rem;
+}
+.child-2{
+    display: grid;
+    grid-area: child-two;
+    grid-template-columns: repeat(4,100ox);
+    grid-template: 
+    "prg prg prg prg"
+    "exam exam home read"
+    "ginfo ginfo spanish spanish"
+    "grammer grammer dict dict"
+    ;
+    grid-gap: 50px 20px;
+    width:45vw;
+    height: 60vh;
+    margin:100px 0;
+    
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #222;
+    /* box-shadow: 1px 2px 3px gray; */
+    border-radius: 8px;
+    color: #222;
+    font-size: 2em;
+    /* font-family: arial, sans-serif; */
+    /* background-color: #f9d423; */
+    /* font-weight: bold; */
+    /* background-color: brown;
+    border: 2px solid yellow; */
+}
+
+/* cild 2 dash board */
+.div-1{
+    grid-area: prg;
+    position: relative;
+    top:-75px;
+    left: -23rem;
+    border: none;
+    white-space: nowrap;
+}
+.div-1 h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+/*  child 2 exam box */
+.div-2{
+    grid-area: exam;
+    position: relative;
+    top:-7rem;
+    left: -8.5rem;
+    border: none;
+    display: grid;
+    border-radius: 15px;
+    grid-template-columns: repeat(5,1fr);
+    background-color: #5942BE;
+    grid-template: 
+    "ded ded ded ded ded"
+    "exe exe exe exe exe"
+    "beg beg beg beg beg"
+    "pic pic pic tst tst"
+    ;
+}
+.exam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 13vw;
+    height: auto;
+    
+}
+/* deadline div */
+.exam-div-1{
+    grid-area: ded;
+    position: relative;
+    /* top: -10px; */
+    left: -23px;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(163, 191, 219);
+}
+.exam-div-1 span{
+    position: relative;
+    color: #e9d0d0;
+    left: 15px;
+    
+}
+/* Exam Unit-5 div */
+.exam-div-2{
+    grid-area: exe;
+    position: relative;
+    top: -20px;
+    left:25px;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+/* spanish for begginers */
+.exam-div-3{
+    grid-area: beg;
+    position: relative;
+    top: -35px;
+    left:8px;
+    /* padding: 20px; */
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #c9b7b7;
+}
+
+/* images div */
+.exam-div-4 img{
+    position: relative;
+    top:-20px;
+    left: -35px;
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background: rgb(120, 131, 224);
+}
+    .exam-div-4 .img-1{
+        z-index: 9;
+    }
+    .exam-div-4 .img-2{
+        z-index: 3;
+        left:-42px;
+    }
+    .exam-div-4 .img-3{
+        z-index: 2;
+        left:-49px;
+    }
+
+/* start testing */
+.exam-div-5 a{
+    color: rgb(199, 221, 223);
+    font-size: 1.2rem;
+    position: relative;
+    top:-20px;
+    font-weight: 500;
+}
+
+/* Home Work Div start */
+
+
+.div-3{
+    grid-area: home;
+    display: grid;
+    background: #FFEDE6;
+    width:15vw;
+    position: relative;
+    top:-7rem;
+    left: -120px;
+    border-radius: 15px;
+    border: none;
+}
+/* .tick{
+    position: relative;
+    font-size: 2.5rem;
+    
+} */
+.tick a i{
+    color: #F5A484;
+    position: relative;
+    top:10px;
+    left: -15px;
+}
+.home-work-heading h2{
+    color: rgb(221,156,127);
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    left: -15px;
+}
+.today-lesson p{
+    font-size: 1.2rem;
+    color: #F5A484;
+    position: relative;
+    left: -15px;
+    bottom: 10px;
+}
+
+/* Reading start */
+.div-4{
+    grid-area: read;
+    display: grid;
+    display: grid;
+    background: #FFEDE6;
+    width:15vw;
+    position: relative;
+    top:-7rem;
+    left: -100px;
+    border-radius: 15px;
+    border: none;
+}
+.tick-read a i{
+    color: #8f84f5;
+    position: relative;
+    top:10px;
+    left: -15px;
+}
+.reading-heading h2{
+    color: rgb(83, 116, 185);
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    left: -15px;
+}
+.words-week p{
+    font-size: 1.2rem;
+    color: #938cf7;
+    position: relative;
+    left: -15px;
+    bottom: 10px;
+}
+
+
+/* Group info start */
+
+.div-5{
+    grid-area: ginfo;
+    display: grid;
+    width: 27vw;
+    height: 28vh;
+    grid-template-columns: repeat(3,100px);
+    grid-template: "g1 g1 g1"
+    "g2 g2 g2"
+    "g3 g3 g3"
+    "g4 g4 g4"
+    "g5 g5 g5"
+    ;
+    box-shadow: 12px 12px 13px rgb(224, 217, 217);
+    border:none;
+    border-radius: 15px;
+    position: relative;
+    top: -8rem;
+    left:-140px;
+}
+.group{
+    /* background: #ffffff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 13vw;
+    height: auto;
+
+ 
+}
+.ginfo-1{
+
+    grid-area: g1;
+    font-size: 1rem;
+}
+.ginfo-1 h1{
+    position: relative;
+    top:5px;
+    left:8.9rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.ginfo-1 a i {
+    color: black;
+    font-size: 1.4rem;
+    position: relative;
+    top:5px;
+    right: -22rem;
+}
+
+.ginfo-2 p{
+    position: relative;
+    color: thistle;
+    font-size: .9rem;
+    top: -2.5rem;
+    left:9rem;
+}
+.ginfo-3{
+    background: #FF9F67 ;
+    width:19vw;
+    height: 9.9vh;
+    position: relative;
+    top:1rem;
+    left:-3rem;
+    color:#fff ;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+.ginfo-3 h1{
+    font-size: .9rem;
+    position: relative;
+    top:-1.2rem;
+    left: 2.5rem;
+    white-space: nowrap;
+}
+.ginfo-3 p{
+    position: relative;
+    font-size: .9rem;
+    top: 1rem;
+    left: -5.56rem;
+    white-space: nowrap;
+}
+.ginfo-3 a i{
+    font-size: .9rem;
+    position: relative;
+    right: 50px;
+    color: white;
+}
+.ginfo-4 {
+    font-size: 1rem;
+    position: relative;
+    top: 73px;
+    left:-23rem;
+}
+.ginfo-4 h1{
+    font-size: 1rem;
+}
+.ginfo-4 h1 span{
+    position: relative;
+    left: 13.7rem;
+}
+.ginfo-5{
+    font-size: 1rem;
+    color: thistle;
+    font-weight: 600;
+    position: relative;
+    top:1.9rem;
+    left:7.7rem;
+}
+
+
+/* spanish for begginers */
+.div-6{
+    grid-area: spanish;
+    display: grid;
+    position: relative;
+    width: 20vw;
+    height: 28vh;
+    top:-8rem;
+    left:-7.5rem;
+    border:none;
+}
+.beg img{
+    position: relative;
+    left: -2rem;
+    top:10px;
+    width: 50px;
+    height: 40px;
+    border: 7px solid rgb(226, 208, 208);
+    border-radius: 10px;
+}
+.beg h1{
+    position: relative;
+    left:-2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.beg p{
+    position: relative;
+    left:-2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.beg .slider{
+    position: relative;
+    top:-1rem;
+    left:-2rem;
+}
+/* grammer start */
+.div-7{
+    grid-area: grammer;
+    display: grid;
+    width:26vw;
+    height: auto;
+    position: relative;
+    top:-10rem;
+    left: -8rem;
+    border: 2px solid rgb(223, 210, 210);
+}
+.gramer{
+    display: flex;
+    padding: 17px 60px;
+}
+
+.gramer .pencil{
+    position: relative;
+    /* top: .1rem; */
+    left:-1rem;
+    font-size: 1.3rem;
+    /* border:13px solid white; */
+   
+}
+.pencil i{
+    padding: 15px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 23px rgb(221, 210, 210);
+    border-radius: 100%;
+    /* color: black; */
+}
+.gramer h2{
+    position: relative;
+    top:-.1rem;
+    left: -.3rem;
+    font-size: 1.3rem;
+}
+.gramer p{
+    position: relative;
+    top:2rem;
+    left:-7rem;
+    white-space: nowrap;
+    font-size: .8rem;
+}
+.gramer .greater{
+    position: relative;
+    top:1rem;
+    left:1rem;
+    font-size: 1rem;
+    color: black;
+}
+
+
+/* dictionary */
+
+.div-8{
+    grid-area: dict;
+    display: grid;
+    width:26vw;
+    height: auto;
+    position: relative;
+    top:-10rem;
+    left: -8rem;
+    border: 2px solid rgb(223, 210, 210);
+}
+.diction{
+    display: flex;
+    padding: 17px 60px;
+}
+.diction .A{
+    position: relative;
+    /* top: .1rem; */
+    left:-2rem;
+    font-size: 1.3rem;
+    /* border:13px solid white; */
+   
+}
+.A i{
+    padding: 15px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 23px rgb(221, 210, 210);
+    border-radius: 100%;
+}
+.diction h2{
+    position: relative;
+    top:-.1rem;
+    left: -.3rem;
+    font-size: 1.3rem;
+}
+.diction p{
+    position: relative;
+    top:2rem;
+    left:-7rem;
+    white-space: nowrap;
+    font-size: .8rem;
+}
+.diction .great{
+    position: relative;
+    top:1rem;
+    left:1rem;
+    font-size: 1rem;
+    color: black;
+}
+
+/* child 3  */
+
+.child-3{
+    grid-area: child-three;
+    display: grid;
+    background-color: #E8EAED;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    grid-template-columns: repeat(6,19px);
+     /* grid-template: ""; */
+     grid-auto-flow: row;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.lst-div-1{
+    position: relative;
+    /* top:10rem */
+}
+.lst-div-1 img{
+    position: relative;
+    top:3rem;
+    /* border: 2px solid rgb(142, 172, 87); */
+    background: linear-gradient(#89a397,#FED98A,yellow);
+    border-radius: 100%;
+    left:20rem;
+    width: 13vw;
+    height: 13vh;
+}
+.lst-div-1 h3{
+    position: relative;
+    top:8.8rem;
+    /* border:2px solid blue; */
+    /* border-radius: 100px; */
+    left: 18rem;
+    /* padding: 12px; */
+    width: 4vw;
+    height: 4vh;
+    /* background-color: chartreuse; */
+}
+.lst-div-1 h3 span{
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-top-left-radius :12px ;
+    color:whitesmoke ;
+    padding: 10px;
+    background: chartreuse;
+    box-shadow: 12px 2px 56px rgb(221, 210, 210);
+    border-radius: 100%;
+}
+.lst-div-1 h2{
+    position: relative;
+    top:12rem; 
+    white-space: nowrap;
+    left:9rem;
+    font-weight: 600;
+}
+.lst-div-1 p{
+    position: relative;
+    top:14.3rem;
+    white-space: nowrap;
+    left:-1rem;
+}
+
+/* sell price -10% */
+.lst-div-2{ 
+    position: relative;
+    top:17rem;
+    left:-.3rem;
+    display: grid;
+    padding: 20px;
+    width: 16vw;
+    height: 13vh;
+    border: 2px solid rgb(165, 154, 154);
+    border-radius: 10px;
+}
+.lst-div-2 h2{
+    position: relative;
+    top:-.3rem;
+    left:-.6rem;
+    font-size: 1rem;
+}
+.lst-div-2 p{
+    position: relative;
+    top:-.1rem;
+    left:-.6rem;
+    font-size: 1rem; 
+    white-space: nowrap;
+}
+.lst-div-2 a i{
+    position: relative;
+    top:-1.6rem;
+    left: 13.5rem;
+    color: rgb(118, 218, 19);
+}
+
+/* courses progress */
+.lst-div-3{
+    position: relative;
+    top:24rem;
+    white-space: nowrap;
+    left:5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    /* letter-spacing: 3px; */
+}
+
+.lst-div-4{
+    position: relative;
+    top:26rem;
+    left:-3rem;
+    width: 16.4vw;
+    height: 10vh;
+    border:2px solid rgb(166, 177, 177);
+    display: grid;
+    border-radius: 10px;
+}
+.lst-div-4 h3{
+    position: relative;
+    top: 1rem;
+    left:-3.4rem;
+    color: blue;
+}
+.lst-div-4 a{
+    position: relative;
+    /* top: rem; */
+    left:-.1rem;
+    padding: 20px;
+    background: blue;
+    border-radius: 10px;
+}
+.lst-div-4 a i{
+    color: white;
+}
+.lst-div-4 h2{
+    font-size: 1.2rem;
+    position: relative;
+    top:-3rem;
+    left:3.8rem;
+}
+.lst-div-4 p{
+    position: relative;
+    font-size: 1rem;
+    top:-3rem;
+    left:3.7rem;
+}
+
+/* dictionary start */
+
+.lst-div-5{
+    position: relative;
+    top:32rem;
+    left:-4.3rem;
+    width: 16.4vw;
+    height: 10vh;
+    border:2px solid rgb(166, 177, 177);
+    display: grid;
+    border-radius: 10px;
+}
+.lst-div-5 h3{
+    position: relative;
+    top: 1rem;
+    left:-2.8rem;
+    color:#FF9F67;
+}
+.lst-div-5 a{
+    position: relative;
+    top: -1.4rem;
+    width: 60px;
+    left: .6rem;
+    padding: 20px;
+    background: #FF9F67;
+    border-radius: 10px;
+}
+.lst-div-5 a i{
+    position: relative;
+    left:.2rem;
+    color: white;
+}
+.lst-div-5 h2{
+    font-size: 1.2rem;
+    position: relative;
+    top:-5.6rem;
+    left:4.8rem;
+}
+.lst-div-5 p{
+    position: relative;
+    font-size: 1rem;
+    top:-5rem;
+    left:4.6rem;
+    font-size: 1rem;
+    /* flex-wrap: wrap;     */
+}
+
+/* Reading start */
+
+.lst-div-6{
+    position: relative;
+    top:38rem;
+    left:-5.4rem;
+    width: 16.4vw;
+    height: 10vh;
+    border:2px solid rgb(166, 177, 177);
+    display: grid;
+    border-radius: 10px;
+}
+.lst-div-6 h3{
+    position: relative;
+    top: 1rem;
+    left:-4rem;
+    color:#FE7067;
+}
+.lst-div-6 a{
+    position: relative;
+    top: -1.4rem;
+    width: 60px;
+    left: -.6rem;
+    padding: 20px;
+    background: #FE7067;
+    border-radius: 10px;
+}
+.lst-div-6 a i{
+    position: relative;
+    left:.2rem;
+    color: white;
+}
+.lst-div-6 h2{
+    font-size: 1.2rem;
+    position: relative;
+    top:-5.6rem;
+    left:4rem;
+}
+.lst-div-6 p{
+    position: relative;
+    font-size: 1rem;
+    top:-5rem;
+    left:4rem;
+    /* font-size: 1rem; */
+    /* flex-wrap: wrap;     */
+}
